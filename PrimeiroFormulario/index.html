@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Um site criado para mostrar as habilidades do criador(lindo)"
+    />
+    <meta name="author" content="Peeltico" />
+    <title>Site Dos Gatos</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="estilo.css" />
+    <div>
+      <h1>Bem Vindo(a)!</h1>
+      <p>É a primeira vez que te vejo aqui, poderia se <b>apresentar</b>?</p>
+      <br />
+      <!--Formulário-->
+      <form>
+        <!--Nome-->
+        <label for="nome">Nome:</label>
+        <input
+          required
+          id="nome"
+          type="text"
+          placeholder="Digite seu nome aqui"
+        /><br /><br />
+        <!---Idade-->
+        <label for="idade">Idade :</label>
+        <input
+          required
+          id="idade"
+          type="text"
+          placeholder="Digite sua idade aqui"
+        /><br /><br />
+        <!---Senha-->
+        <label for="senha">Senha:</label>
+        <input
+          required
+          id="senha"
+          type="password"
+          placeholder="Digite sua senha aqui"
+        />
+        <br /><br />
+        <hr />
+        <!--Escolha animais-->
+        <h2>Quais animais você gosta?</h2>
+        <!--Gatos-->
+        <input type="checkbox" id="cat" name="gato" value="Gatos" />
+        <label for="cat">Gatos</label><br /><br />
+        <!--cachorros-->
+        <input type="checkbox" id="dog" name="cachorro" value="Cachorros" />
+        <label for="dog">Cachorros</label><br /><br />
+        <!---Passaros-->
+        <input type="checkbox" id="bird" name="passaro" value="Passaros" />
+        <label for="bird">Passaros</label><br /><br />
+        <!--Outros-->
+        <input type="checkbox" id="other" name="outro" value="Outros" />
+        <label for="other">Outros</label>
+        <br /><br />
+        <hr />
+        <!--Sobre -->
+        <h2>Escreva algo sobre você:</h2>
+        <textarea
+          name="sobre"
+          placeholder="Digite aqui"
+          rows="6"
+          cols="35"
+        ></textarea>
+        <br /><br />
+        <!--<h3 class="botao">Clique aqui para prosseguir</h3>-->
+      </form>
+    </div>
+  </body>
+</html>
